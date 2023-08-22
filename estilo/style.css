@@ -11,18 +11,19 @@ html, body{
 }
 #caixa{
     background-color: white;
-    border-radius: 10px;
+    border-radius: 15px;
     width: 80vw;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    box-shadow: 1px 1px 11px black;
 }
 header > img {
     width: 80vw;
     height: 70vw;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 header > h1{
@@ -49,12 +50,6 @@ main > div > form > p{
     height: 5vh;
     border-radius: 10px;
 }
-/* #isen{
-    width: 80%;
-    height: 5vh;
-    border-radius: 10px;
-} */
-
 .clique{
     text-align: center;
     margin: 10px;
