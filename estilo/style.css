@@ -27,4 +27,65 @@ header > img {
 
 header > h1{
     text-align: center;
+    padding: 10px;
 }
+header > p{
+    padding: 10px;
+}
+
+main > div > form > .dados{
+    background-color: #8e05c0;
+    margin: 10px;
+    padding: 2px;
+    text-align: center;
+}
+main > div > form > p{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#iemail, #isen{
+    width: 80%;
+    height: 5vh;
+    border-radius: 10px;
+}
+/* #isen{
+    width: 80%;
+    height: 5vh;
+    border-radius: 10px;
+} */
+
+.clique{
+    text-align: center;
+    margin: 10px;
+}
+#ientra{
+    background-color: #5d80da;
+}
+
+#ientra > input{
+    background-color: transparent;
+    width: 100%;
+    color: white;
+    border: 0;
+    font-size: 1.4em;
+}
+#iesqueci{
+    text-decoration: none;
+    font-size: 1.4em;
+    color: #5d80da;    
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  color: white;
+  font-size: 2em;
+  line-height: 0;
+  letter-spacing:3px;
+  position: relative;
+  top: 10px;
+}
+
