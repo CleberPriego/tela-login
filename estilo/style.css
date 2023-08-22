@@ -11,9 +11,12 @@ html, body{
 }
 #caixa{
     background-color: white;
-    margin: auto;
     border-radius: 10px;
     width: 80vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 header > img {
     width: 80vw;
