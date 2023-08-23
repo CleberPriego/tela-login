@@ -13,18 +13,25 @@
         float: left;
         width: 30vw;
         object-fit: cover;
+        
         height: 52.3vh;
         border-top-left-radius: 15px;
         border-top-right-radius: 0px;
         border-bottom-right-radius: 0px;
         border-bottom-left-radius: 15px;   
     }
+    header > h1{
+        padding: 5px;
+    }
+    header > p{
+        padding: 5px;
+    }
     main{
         width: 45vw;
         float: right;   
     }
     main > div > form > .dados, .clique{
-        margin: 5px;
+        margin: 5gpx;
     }
 }
 
@@ -46,10 +53,13 @@
         border-bottom-right-radius: 15px;
         border-bottom-left-radius: 0px;   
     }
+    header > h1{
+        padding: 10px;
+    }
     main{
         width: 45vw;   
     }
     main > div > form > .dados, .clique{
-        margin: 5px;
+        margin: 10px;
     }
 }
