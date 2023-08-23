@@ -46,9 +46,13 @@ main > div > form > p{
     border-radius: 10px;
 }
 #iemail, #isen{
-    width: 80%;
+    width: 85%;
     height: 5vh;
+    border: none;
     border-radius: 10px;
+    font-size: 1.4em;
+    background-color:lightgray;
+    
 }
 .clique{
     text-align: center;
@@ -79,7 +83,7 @@ main > div > form > p{
   color: white;
   font-size: 2em;
   line-height: 0;
-  letter-spacing:3px;
+  letter-spacing:2px;
   position: relative;
   top: 10px;
 }
