@@ -17,15 +17,17 @@
         </header>
         <main>
             <div>
-                <form action="cadastro.php" method="get" autocomplete="on">
+                <form action="cadastro.php" method="get">
                     <p class="dados">
                         <span class="material-symbols-outlined">
-                        person</span><label for="iemail"></label><input type="email" name="email" id="iemail" placeholder="seu e-mail" required>
+                        person</span><input type="email" name="email" id="iemail" placeholder="seu e-mail" required autocomplete="email">
+                        <label for="iemail"></label>
                     </p>
 
                     <p class="dados">
                         <span class="material-symbols-outlined">
-                        key</span><label for="isen"></label> <input type="password" name="sen" id="isen" placeholder="sua senha" required minlength="8" maxlength="12">
+                        key</span><input type="password" name="sen" id="isen" placeholder="sua senha" required autocomplete="current-password" minlength="8" maxlength="12">
+                        <label for="isen"></label>
                     </p>
 
                     <p id="ientra" class="clique"><input type="submit" value="Entra"></p>
