@@ -29,7 +29,6 @@ header > img {
 
 header > h1{
     text-align: center;
-    padding: 10px;
 }
 header > p{
     padding: 10px;
@@ -37,7 +36,7 @@ header > p{
 
 main > div > form > .dados{
     background-color: #8e05c0;
-    margin: 10px;
+    margin: 3px;
     padding: 2px;
     text-align: center;
 }
@@ -57,7 +56,7 @@ main > div > form > p{
 }
 .clique{
     text-align: center;
-    margin: 10px;
+    margin: 3px;
 }
 #ientra{
     background-color: #5d80da;
